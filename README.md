@@ -20,6 +20,7 @@ Returns an asynchronous promise that is resolved when the specified url returns 
 ## Usage
 ```javascript
 var upAndRunning = require('gulp-up-and-running');
+
 // waits until selenium is up-and-running
 gulp.task('selenium-up-and-running', function() {
     return upAndRunning({
