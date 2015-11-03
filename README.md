@@ -20,7 +20,8 @@ gulp.task('selenium-up-and-running', function() {
     });
 });
 
-gulp.tasks('e2e-tests', ['selenium-up-and-running'], function(){ 
+// you can start your end to end tests once selenium is up-and-running
+gulp.task('e2e-tests', ['selenium-up-and-running'], function(){ 
   // some code to start your e2e tests here ...
 });
 ```
