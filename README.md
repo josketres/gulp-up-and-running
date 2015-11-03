@@ -10,7 +10,7 @@ var upAndRunning = require('gulp-up-and-running');
 ## API
 
 ### upAndRunning(options)
-Returns an asynchronous promise that will be resolved when the specified webserver is up-and-running and will be rejected after the retries limit is reached.
+Returns an asynchronous promise that is resolved when the specified url returns an HTTP code 200. It is rejected after the retries limit is reached.
 
 `options` is a JS object containing the following keys:
 * `name`: The name of the webserver for logging purposes.
