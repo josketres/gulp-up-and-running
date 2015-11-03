@@ -1,0 +1,31 @@
+{
+  "name": "gulp-up-and-running",
+  "version": "1.0.0",
+  "description": "Gulp extension to wait until a webserver is up and running.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josketres/gulp-up-and-running.git"
+  },
+  "keywords": [
+    "gulp",
+    "wait",
+    "up",
+    "running",
+    "webserver"
+  ],
+  "author": "Josue Zarzosa de la Torre <josketres@gmail.com> (http://www.josketres.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josketres/gulp-up-and-running/issues"
+  },
+  "homepage": "https://github.com/josketres/gulp-up-and-running#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "q": "^1.4.1",
+    "retry": "^0.8.0"
+  }
+}
